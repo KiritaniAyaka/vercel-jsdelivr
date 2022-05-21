@@ -1,0 +1,10 @@
+{
+  "version": 3,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://cdn.jsdelivr.net/$1",
+      "status": 200
+    }
+  ]
+}
